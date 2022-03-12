@@ -1,0 +1,91 @@
+.l_about_info_list {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.c_about {
+    position: relative;
+}
+
+/* .c_about:hover .l_about_info_list {
+    display: block;
+    position: absolute;
+} */
+
+/* input[type=checkbox]{
+  
+    display: none;
+} */
+
+/* .dropdown {
+    display: none;
+} */
+
+/* label {
+    border: 1px solid red;
+    display: block;
+
+} */
+
+.c_main_nav {
+ list-style-type: none;
+ left: -41px;
+ top: -17px;
+}
+.l_about_info_list {
+    position: relative;
+    top: 0px;
+    left: -40px;
+    
+}
+
+.c_secondary_nav_item:hover {
+    background: skyblue;
+}
+
+.c_secondary_nav_item {
+    padding: 10px;
+    display: block;
+    width: 150px;
+    border: 1px solid black;
+    background-color:#ddd;
+    z-index: 1;
+}
+
+.c_secondary_nav_item a,
+.c_primary_nav_item a {
+    text-decoration: none;
+}
+
+.c_primary_nav_item {
+    padding: 10px;
+    display: block;
+    width: 150px;
+    border: 1px solid black;
+    background-color:#ddd;
+    position: relative;
+}
+
+.c_primary_nav_item:hover {
+
+    background-color: white;
+
+}
+
+.c_primary_nav_item a:after{
+    content: "";
+    background: url(/test.png)no-repeat;
+    position: absolute;
+    display: inline-block;
+    right: 15px;
+    width: 16px;
+    height: 16px;
+}
+
+
+/* .dropdown:checked ~ .l_about_info_list {
+    display: block;
+} */

@@ -1,0 +1,27 @@
+.l_wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.l_side_content {
+    position: relative;
+    
+}
+
+.l_main_content {
+    
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.l_main_content p {
+    padding: 15px;
+}
+
+.show {
+    display:block;
+}
